@@ -5,13 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="This will be my first login page on github">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
-    <link rel="stylesheet" href="login.css">
-    <title>Login | Page</title>
+    <title>Sign up | Page</title>
 </head>
 <body>
-    <div class="wrapper">
+    <div class="wrapper-s">
         <form action="#">
-            <h1>Login</h1>
+            <h1>Sign up</h1>
+            <div class="input-box">
+                <input type="email" placeholder="Email" required>
+                <i class='bx bxs-envelope'></i>
+            </div>
             <div class="input-box">
                 <input type="text" placeholder="Username" required>
                 <i class='bx bxs-user'></i>
@@ -21,15 +24,10 @@
                 <i class='bx bxs-lock-alt' ></i>
             </div>
 
-            <div class="remember-forgot">
-                <label><input type="checkbox"> Remember me</label>
-                <a href="#">Forgot Password?</a>
-            </div>
+            <button class="btn" type="submit">Sign up</button>
 
-            <button class="btn" type="submit">Login</button>
-
-            <div class="signup-link">
-                <p>Don't have an account? <a href="#">Sign up</a></p>
+            <div class="login-link">
+                <p>Already have an account? <a href="#">Sign up</a></p>
             </div>
         </form>
     </div>
