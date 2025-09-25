@@ -20,6 +20,7 @@ body {
 .wrapper {
     width: 420px;
     background: transparent;
+    backdrop-filter: blur(5px);
     color: white;
     border: 2px solid rgba(255, 255, 255, .2);
     border-radius: 15px;
