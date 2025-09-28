@@ -1,0 +1,154 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap'); 
+
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background: #f8f4f1;
+    color: #993200;
+}
+
+/* Styling the header and navbar */
+
+.navbar {
+    background: transparent;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.navdiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo a img {
+   max-width: 90px;
+}
+
+.navbar li {
+    display: inline-block;
+    font-size: 17.5px;
+    font-weight: bold;
+}
+
+.navbar li a {
+    margin-right: 25px;
+    color: #b87c54; 
+    cursor: pointer;
+}
+
+.navbar li a:hover,
+.navbar .home {
+    color: #993200;
+}
+
+.navbar button {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    padding: 5px 10px;
+    background: #944b27;
+}
+
+.navbar .signin:hover {
+    background: #993200;
+}
+
+.navbar .signup {
+    background: #bf997f;
+}
+
+.navbar .signup:hover {
+    background: #a47351;
+}
+
+
+/* Now we gonna style the main content */
+
+.content-main {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #843b16;
+}
+
+.content-main .text {
+    margin-left: 20px;
+    padding: 0 30px;
+}
+
+.content-main h1 {
+    font-size: 40px;
+}
+
+.content-main .des-text {
+    font-weight: 600;
+}
+
+.content-main .energy {
+    font-size: 50px;
+}
+
+.coffee {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20PX;
+}
+
+.coffee h2 {
+    text-align: center;
+    margin: 10px;
+}
+
+.coffee .price {
+    text-align: center;
+    margin-bottom: 10px;
+    font-size: 18.5px;
+    font-weight: 600;
+}
+
+.coffee .btn-buy {
+    padding: 10px 20px;
+    color: #fff;
+    border: none;
+    background: #944b27;
+    cursor: pointer;
+}
+
+.coffee .btn-buy:hover {
+    background: #993200;
+}
+
+.coffee img {
+    width: 550px;
+}
+
+/* Now we gonna make the footer */
+
+footer {
+    background: #944b27;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 20px;
+}
+
+footer p {
+    color: #fff;
+}
+
+footer li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+footer a {
+    color: #fff;
+}
